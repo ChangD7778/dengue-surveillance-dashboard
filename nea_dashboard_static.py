@@ -36,7 +36,7 @@ from historical_lag_analysis import (
     validate_weather_overlap as shared_validate_weather_overlap,
 )
 
-st.set_page_config(page_title="NEA Dengue Surveillance and Early Warning Dashboard", layout="wide")
+st.set_page_config(page_title="NEA Dengue Surveillance Early Warning Dashboard", layout="wide")
 
 DATASET_ID = "d_ca168b2cb763640d72c4600a68f9909e"
 DATASTORE_URL = "https://data.gov.sg/api/action/datastore_search"
