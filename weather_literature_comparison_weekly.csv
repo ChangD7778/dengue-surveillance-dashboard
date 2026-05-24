@@ -1,0 +1,2 @@
+reading_anchor,literature_benchmark_weeks,local_best_lag_weeks,local_best_pearson_r,local_best_spearman_rho,benchmark_pearson_r,benchmark_spearman_rho,benchmark_overlap_weeks,analysis_start,analysis_end,literature_note
+Koh et al. (2008),18,49,0.26762129308902777,0.13860772642085598,0.11986145485707504,0.19169571667895507,335,2016-07-17,2022-12-18,Koh et al. (2008) reported the strongest temperature association at 18 weeks in Singapore.

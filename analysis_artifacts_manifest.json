@@ -1,0 +1,93 @@
+{
+  "generated_at_utc": "2026-05-03T09:41:46.440858+00:00",
+  "analysis_weather_end_date": "2024-12-31",
+  "default_weather_lag_days": 126,
+  "lag_sweep_days": {
+    "min": 0,
+    "max": 28,
+    "count": 29
+  },
+  "lag_sweep_weeks": {
+    "min": 0,
+    "max": 52,
+    "count": 53
+  },
+  "literature_benchmark_weeks": 18,
+  "default_forecast": {
+    "horizon_weeks": 12,
+    "alpha": 0.2,
+    "threshold": 400
+  },
+  "sources": {
+    "dengue": {
+      "path": "C:\\Users\\davin\\OneDrive\\Documents\\Python stuffs\\NEA Dengue Model\\singapore_dengue_raw_records.csv",
+      "mtime_utc": "2026-03-10T03:18:44.946919+00:00"
+    },
+    "weather": {
+      "path": "C:\\Users\\davin\\OneDrive\\Documents\\Python stuffs\\NEA Dengue Model\\singapore_weather_forecast_24hr_history.csv",
+      "mtime_utc": "2026-03-19T04:59:16.465470+00:00"
+    }
+  },
+  "artifacts": {
+    "base": {
+      "path": "C:\\Users\\davin\\OneDrive\\Documents\\Python stuffs\\NEA Dengue Model\\weekly_dengue_weather_base.csv",
+      "rows": 572
+    },
+    "lag_summary": {
+      "path": "C:\\Users\\davin\\OneDrive\\Documents\\Python stuffs\\NEA Dengue Model\\weather_lag_correlation_summary.csv",
+      "rows": 116
+    },
+    "best_lags": {
+      "path": "C:\\Users\\davin\\OneDrive\\Documents\\Python stuffs\\NEA Dengue Model\\weather_lag_best_lags.csv",
+      "rows": 4
+    },
+    "weekly_lag_summary": {
+      "path": "C:\\Users\\davin\\OneDrive\\Documents\\Python stuffs\\NEA Dengue Model\\weather_lag_correlation_summary_weekly.csv",
+      "rows": 212
+    },
+    "weekly_best_lags": {
+      "path": "C:\\Users\\davin\\OneDrive\\Documents\\Python stuffs\\NEA Dengue Model\\weather_lag_best_lags_weekly.csv",
+      "rows": 4
+    },
+    "literature_summary": {
+      "path": "C:\\Users\\davin\\OneDrive\\Documents\\Python stuffs\\NEA Dengue Model\\weather_literature_comparison_weekly.csv",
+      "rows": 1
+    },
+    "qa": {
+      "path": "C:\\Users\\davin\\OneDrive\\Documents\\Python stuffs\\NEA Dengue Model\\historical_lag_analysis_qa.csv",
+      "rows": 22
+    },
+    "sarima_forecast": {
+      "path": "C:\\Users\\davin\\OneDrive\\Documents\\Python stuffs\\NEA Dengue Model\\sarima_default_forecast_12w.csv",
+      "rows": 12
+    },
+    "arimax_forecast": {
+      "path": "C:\\Users\\davin\\OneDrive\\Documents\\Python stuffs\\NEA Dengue Model\\arimax_default_forecast_12w.csv",
+      "rows": 12
+    },
+    "arimax_future_exog": {
+      "path": "C:\\Users\\davin\\OneDrive\\Documents\\Python stuffs\\NEA Dengue Model\\arimax_default_future_exog_12w.csv",
+      "rows": 12
+    }
+  },
+  "backtest": {
+    "generated_at_utc": "2026-05-03T09:41:46.418397Z",
+    "model_kinds": [
+      "sarima",
+      "sarimax"
+    ],
+    "horizon": 12,
+    "step_weeks": 4,
+    "min_train_weeks": 156,
+    "alpha": 0.2,
+    "eval_thresholds": [
+      200,
+      300,
+      400,
+      500
+    ],
+    "n_origins": 102,
+    "origin_first": "2014-12-21 00:00:00",
+    "origin_last": "2022-09-25 00:00:00"
+  }
+}

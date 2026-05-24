@@ -1,0 +1,23 @@
+metric,value
+dengue_rows,572
+dengue_duplicate_week_start,0
+dengue_negative_cases,0
+dengue_week_start_min,2012-01-01 00:00:00
+dengue_week_start_max,2022-12-18 00:00:00
+analysis_weather_end_date,2024-12-31 00:00:00
+dengue_week_start_min,2012-01-01 00:00:00
+dengue_week_start_max,2022-12-18 00:00:00
+weather_query_start,2016-03-16 00:00:00
+weather_query_end,2024-12-31 00:00:00
+weekly_base_rows,572
+weekly_base_duplicate_week_start,0
+weekly_base_overlap_rows,335
+weekly_base_missing_weather_rows,237
+weekly_base_overlap_start,2016-07-17 00:00:00
+weekly_base_overlap_end,2022-12-18 00:00:00
+lag_summary_rows,116
+lag_unique_features,4
+lag_unique_days,29
+weekly_lag_summary_rows,212
+weekly_lag_unique_features,4
+weekly_lag_unique_weeks,53
